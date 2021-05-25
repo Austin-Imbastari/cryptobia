@@ -37,11 +37,11 @@ class Main extends Component {
 							/>
 						</div>
 						<br />&nbsp;
-						<img
+						{/* <img
 							src={'https://i.gyazo.com/ed6df2ee521e82ae2498da1af3454c52.png'}
 							style={{ width: '1000px', height: '300px' }}
 							alt="adam"
-						/>
+						/> */}
 						<div className="row">
 							<main role="main" className="col-lg-12 d-flex text-center">
 								<div className="content mr-auto ml-auto">
