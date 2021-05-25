@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## 📃 Instructions to run & upload on IPFS:
 0. **Install node v12.10.0:**
 </br>**```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash```
@@ -61,3 +62,6 @@ Restart Terminal**
 2. **Publish on Surge:**
 </br>**```surge```**
 </br>**...and follow the instructions**
+=======
+# cryptobia
+>>>>>>> 6fad959ccf5e12c0431a3dd92ba7c90e8815a651
