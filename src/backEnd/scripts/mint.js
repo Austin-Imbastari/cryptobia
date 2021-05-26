@@ -46,7 +46,10 @@ module.exports = async function(callback) {
 
 		console.log('\nMinting NFTs...');
 		for (let i = 0; i < files.length; i++) {
-			await nft.mint(`https://ipfs.io/ipfs/${upload.cid.toString()}/${files[i]}`, web3.utils.toWei('1', 'Ether'));
+			await nft.mint(
+				`https://ipfs.io/ipfs/${upload.cid.toString()}/${files[i]}`,
+				web3.utils.toWei('0.0001', 'Ether')
+			);
 			nftsData[i] =
 				nftsData[i].slice(0, -2) +
 				`,\n\t"price": ${await nft.price(i + 1)},\n\t"uri": "${await nft.tokenURI(i + 1)}"\n}`; //add price&URI to nftsData
