@@ -48,7 +48,7 @@ module.exports = async function(callback) {
 		for (let i = 0; i < files.length; i++) {
 			await nft.mint(
 				`https://ipfs.io/ipfs/${upload.cid.toString()}/${files[i]}`,
-				web3.utils.toWei('0.0001', 'Ether')
+				web3.utils.toWei('0.00001', 'Ether')
 			);
 			nftsData[i] =
 				nftsData[i].slice(0, -2) +

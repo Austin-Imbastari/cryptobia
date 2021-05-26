@@ -10,7 +10,7 @@ class Loading extends Component {
 				<br />
 				<br />
 				<ReactTypingEffect
-					text={[ 'Loading ........................' ]}
+					text={[ 'Patience is a virtue..............' ]}
 					speed="750"
 					eraseSpeed="100"
 					eraseDelay="10000"

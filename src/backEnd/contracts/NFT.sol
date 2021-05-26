@@ -11,7 +11,7 @@ contract NFT is ERC721, Ownable {
 
   event Purchase(address owner, uint price, uint id, string uri);
 
-  constructor() ERC721("CRYPTOBIA", "TOBIA") {
+  constructor() ERC721("CRYPTOFUSION", "FUSION") {
     _owner = msg.sender;
   }
 

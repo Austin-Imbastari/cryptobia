@@ -15,7 +15,7 @@ class Main extends Component {
 						<br />
 						<div>
 							<ReactTypingEffect
-								text={[ 'Welcome to Cryptobia' ]}
+								text={[ 'Welcome to Cryptofusion' ]}
 								speed="40"
 								eraseSpeed="10"
 								eraseDelay="2000"
